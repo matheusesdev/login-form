@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Login Screen</title>
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <div class="form-side">
+            <a href="#" title="Logo">
+                <img src="/assets/ofin.png" alt="ofin" class="logo">
+            </a>
+            <form class="my-form">
+                <div class="form-welcome-row">
+                    <h1>Crie sua conta &#x1F44F</h1>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title='Use Google'>
+                        <img src="/assets/google.png" alt="Google">Use Google
+                    </a>
+                    <a href="#" title="Use Apple">
+                        <img src="/assets/apple.png" alt="Apple">Use Apple
+                    </a>
+                </div>
+                <div class="divider">
+                    <div class="divider-line"></div> OU <div class="divider-line"></div>
+                </div>
+                <div class="text-field">
+                    <label for="email">E-mail
+                        <input type="Email" id="email" name="email" autocomplete="off" placeholder='Digite o seu e-mail'
+                            required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"></path>
+                        </svg>
+                    </label>
+                </div>
+                <button type="submit" class="my-form_button">
+                    Login
+                </button>
+                <div class="my-form_actions">
+                    <a href="#" title="Resetar Senha">
+                        Resetar Senha
+                    </a>
+                    <a href="#" title="Criar Conta">
+                        Criar Conta
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="info-side">
+            <img src="assets/mock.png" alt="Mock" class="mockup">
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
